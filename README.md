@@ -1,6 +1,18 @@
 # Linear Regression
 
-## Pearson's R vs Spearman's Rho?
+## Our Data
+
+## Plotting our Data
+ ![Image!](Images/scatter-plot.png)
+
+## Correlation of Variables
+
+**Pearson's R:** .7979
+**Spearman's Rho:**.8202
+
+
+
+## Understanding Pearson's R vs Spearman's Rho?
 
 - Correlation is the degree to which two variables are linearly related. 
 - Important to remember that correlation doesn't imply causation.
