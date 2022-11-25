@@ -1,6 +1,6 @@
 # Linear Regression
 
-## Pearson R vs Spearman Rho?
+## Pearson's R vs Spearman's Rho?
 
 - Correlation is the degree to which two variables are linearly related. 
 - Important to remember that correlation doesn't imply causation.
@@ -20,7 +20,9 @@
 BUT, not exactly at a constant rate whereas in a linear relationship the rate of increase/decrease is constant."
 
 #### Example of Monotonic Relationship
-![Image!](Images/monotonic-relationship.png)
+![Image!](Images/monotonic-relationship1.png)![Image!](Images/monotonic-relationship2.png)![Image!](Images/monotonic-relationship3.png)
+
+
 
 
 ## References
@@ -29,4 +31,4 @@ BUT, not exactly at a constant rate whereas in a linear relationship the rate of
 
 2. https://www.youtube.com/watch?v=LSmjQNsCbFs&ab_channel=SpencerPao
 
-3. 
+3. https://www.wikiwand.com/en/Monotonic_function
