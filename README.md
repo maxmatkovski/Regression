@@ -1,25 +1,42 @@
 # Linear Regression
 
+
 ## Our Data
+Practicing single linear regression on beer data set. 
 
 ## Plotting our Data
+We will be trying to predict total calories wight grams of Carbohydrates. 
+
  ![Image!](Images/scatter-plot.png)
 
 ## Correlation of Variables
 
-**Pearson's R:**  .7979
+'''
+import scipy.stats
+scipy.stats.pearsonr(x,y)
+
+'''
 
 
-## Checking for normality
+**Pearson's R: .7979**
 
-### What is normality?
+## Checking For Normality
 
 ### Quantile-Quantile Plot
 
-image.png
+![Image!](Images/QQ%20Plot.png)
+
+
+We can try normalizing the data further by applying a **log function**?
+
+## Creating Model
+'''
+
+'''
 
 
 
+# Other
 
 ## Understanding Pearson's R vs Spearman's Rho?
 
@@ -42,8 +59,6 @@ BUT, not exactly at a constant rate whereas in a linear relationship the rate of
 
 #### Example of Monotonic Relationship
 ![Image!](Images/monotonic-relationship1.png)![Image!](Images/monotonic-relationship2.png)![Image!](Images/monotonic-relationship3.png)
-
-
 
 
 ## References
