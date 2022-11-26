@@ -7,8 +7,17 @@
 
 ## Correlation of Variables
 
-**Pearson's R:** .7979
-**Spearman's Rho:**.8202
+**Pearson's R:**  .7979
+
+
+## Checking for normality
+
+### What is normality?
+
+### Quantile-Quantile Plot
+
+image.png
+
 
 
 
