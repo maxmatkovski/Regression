@@ -11,11 +11,13 @@ We will be trying to predict total calories wight grams of Carbohydrates.
 
 ## Correlation of Variables
 
-'''
+```
 import scipy.stats
 scipy.stats.pearsonr(x,y)
 
-'''
+print('hello')
+
+```
 
 
 **Pearson's R: .7979**
@@ -25,14 +27,14 @@ scipy.stats.pearsonr(x,y)
 ### Quantile-Quantile Plot
 
 ![Image!](Images/QQ%20Plot.png)
-
+**Interpret QQ Plot**
 
 We can try normalizing the data further by applying a **log function**?
 
-## Creating Model
-'''
+## Train-Test-Split Data
+```
 
-'''
+```
 
 
 
