@@ -13,9 +13,10 @@ We will be trying to predict total calories wight grams of Carbohydrates.
 
 ```
 import scipy.stats
-scipy.stats.pearsonr(x,y)
 
-print('hello')
+x = df['Carbohydrates']
+y = df['Calories']
+scipy.stats.pearsonr(x,y)
 
 ```
 
