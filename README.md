@@ -17,7 +17,6 @@ import scipy.stats
 x = df['Carbohydrates']
 y = df['Calories']
 scipy.stats.pearsonr(x,y)
-
 ```
 
 
@@ -34,10 +33,57 @@ We can try normalizing the data further by applying a **log function**?
 
 ## Train-Test-Split Data
 ```
+from sklearn.model_selection import train_test_split
 
+x_train, x_test, y_train, y_test = train_test_split(x,y,test_size=.33,random_state=42)
 ```
 
+## Create and Fit Linear Model
+```
+from sklearn import linear_model
+reg = linear_model.LinearRegression()
+reg.fit(x_train,y_train)
+```
 
+## Linear Model
+### Calories = 69.158 + (Carbohydrates * 7.040)
+
+## Manually Calculating RMSE
+```
+# append all residuals to a list
+import math
+
+residuals = []
+for i in range(len(y_pred)):
+    residual = abs(y_pred[i] - y_test[i])
+    residuals.append(residual)
+```
+
+```
+# calculate root mean squared of all residuals
+import math
+import statistics
+def rmse(param):
+    
+    val = 0
+    for each in residuals:
+        val += each**2
+    mean = val/len(residuals)
+    return math.sqrt(mean)  
+```
+**RMSE** = 21.767
+
+Checking MSE calculation
+```
+from sklearn.metrics import mean_squared_error
+print(mean_squared_error(y_test,y_pred))
+```
+**MSE** = 473.779
+
+Taking the root of **MSE** we can see that we correctly calculated it. 
+
+## Plotting Model Over Our Data
+![Image!](Images/plotted-model.png)
 
 # Other
 
