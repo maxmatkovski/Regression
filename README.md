@@ -140,3 +140,8 @@ Approximately 75.2% of the variance is explained by the model. Usually .75 is in
 4. https://www.wikiwand.com/en/Coefficient_of_determination
 
 5. https://www.bmc.com/blogs/mean-squared-error-r2-and-variance-in-regression-analysis/
+
+## To Do 
+- Manually Calculate R2 (understand calculation)
+- Figure out how to interpret QQ Plot and relation to normality
+- Understand logarithm effect on normality of a plot
