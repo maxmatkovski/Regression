@@ -5,7 +5,7 @@
 Practicing single linear regression on beer data set. 
 
 ## Plotting our Data
-We will be trying to predict total calories wight grams of Carbohydrates. 
+We will be trying to predict total calories with grams of Carbohydrates. 
 
  ![Image!](Images/scatter-plot.png)
 
